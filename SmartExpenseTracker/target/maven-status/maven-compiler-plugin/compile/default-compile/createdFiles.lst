@@ -1,0 +1,6 @@
+com\tracker\ExpenseDAO.class
+org\example\Main.class
+com\tracker\DBHelper.class
+com\tracker\AutoCategorizer.class
+com\tracker\Expense.class
+com\tracker\MainApp.class
