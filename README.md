@@ -58,15 +58,15 @@ All data is stored locally in `expenses.db` — works fully offline.
 
 ## 🏗️ Project Structure
 
-com.tracker/
-├── MainApp.java # JavaFX main application; handles UI, event logic, and charts
-├── AutoCategorizer.java # Smart categorization logic that learns from past expenses
-├── BudgetManager.java # Manages category-wise budgets and budget alerts
-├── Expense.java # Expense model (POJO) representing each expense record
-├── ExpenseDAO.java # Handles all database CRUD operations for expenses
-├── DBHelper.java # Provides SQLite database connection
-├── styles.css # CSS file for UI styling (colors, fonts, themes)
-└── expenses.db # SQLite database file (auto-created on first run)
+com.tracker/<br>
+├── MainApp.java # JavaFX main application; handles UI, event logic, and charts<br>
+├── AutoCategorizer.java # Smart categorization logic that learns from past expenses<br>
+├── BudgetManager.java # Manages category-wise budgets and budget alerts<br>
+├── Expense.java # Expense model (POJO) representing each expense record<br>
+├── ExpenseDAO.java # Handles all database CRUD operations for expenses<br>
+├── DBHelper.java # Provides SQLite database connection<br>
+├── styles.css # CSS file for UI styling (colors, fonts, themes)<br>
+└── expenses.db # SQLite database file (auto-created on first run)<br>
 
 
 **Notes:**
