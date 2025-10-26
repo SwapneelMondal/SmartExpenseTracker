@@ -58,3 +58,25 @@ All data is stored locally in `expenses.db` — works fully offline.
 
 ## 🏗️ Project Structure
 
+com.tracker/
+├── MainApp.java # JavaFX main application; handles UI, event logic, and charts
+├── AutoCategorizer.java # Smart categorization logic that learns from past expenses
+├── BudgetManager.java # Manages category-wise budgets and budget alerts
+├── Expense.java # Expense model (POJO) representing each expense record
+├── ExpenseDAO.java # Handles all database CRUD operations for expenses
+├── DBHelper.java # Provides SQLite database connection
+├── styles.css # CSS file for UI styling (colors, fonts, themes)
+└── expenses.db # SQLite database file (auto-created on first run)
+
+
+**Notes:**
+- Dialog windows (add expense, budget settings) are handled in `MainApp.java`.
+- Learned category data is managed by `AutoCategorizer` in memory.
+- CSV export generates `expenses_export.csv` in the project root.
+- Follows **MVC architecture**:
+  - **Model:** `Expense`, `BudgetManager`, `ExpenseDAO`
+  - **View:** JavaFX UI elements in `MainApp`
+  - **Controller:** `MainApp` manages user interactions and updates views.
+
+---
+
