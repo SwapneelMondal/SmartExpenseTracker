@@ -1,6 +1,6 @@
 # 💰 Smart Expense Tracker
 
-A **desktop-based personal finance management app** built using **JavaFX** and **SQLite**.  
+A **desktop-based personal finance management app** built using **JavaFX** and **SQLite**.
 This app helps you record, categorize, and analyze your expenses — with smart suggestions, budget alerts, and beautiful visualizations.
 
 ---
@@ -51,7 +51,7 @@ Export all expenses to a `.csv` file for Excel or Google Sheets.
 ✅ **Real-Time Filtering**  
 Search and filter expenses dynamically using the search bar.
 
-✅ **Local Database (Offline Mode)**  
+✅ **Local Database (Offline Mode)**
 All data is stored locally in `expenses.db` — works fully offline.
 
 ---
